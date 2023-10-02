@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp From</title>
+    <link rel="stylesheet" href="CSS/student_SignUp.css">
+</head>
+
+<body>
+    <div class="box">
+        <span class="borderline"></span>
+        <form method="post" action="Student.php">
+            <h2>Student Registeration Form</h2>
+            <div class="inputbox">
+                <input type="text" required="required" name="username">
+                <span>Student Name</span>
+                <i></i>
+            </div>
+
+
+            <div class="inputbox">
+                <input type="text" required="required" name="fathername">
+                <span>Father Name</span>
+                <i></i>
+            </div>
+
+
+            <div class="inputbox">
+                <input type="number" required="required" name="RGNo" >
+                <span>Registeration No</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <select class="select-box" name="subject">
+                    <option value="">Subject</option>
+                    <option value="Pre-Medical">Pre-Medical</option>
+                    <option value="Pre-Enginerring">Pre-Enginerring</option>
+                    <option value="Computer Science">ICS</option>
+                    <option value="Arts">Arts</option>
+                </select>
+                <i></i>
+            </div>
+
+
+            <div class="inputbox">
+                <input type="date" required="required" name="dateofbirth">
+                <span>Date Of Birth</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <select class="select-box" name="gender">
+                    <option value="">Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="email" required="required" name="email">
+                <span>Email</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="number" required="required" name="mobile">
+                <span>Mobile No</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="password" required="required" name="password">
+                <span>Password</span>
+                <i></i>
+            </div>
+
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

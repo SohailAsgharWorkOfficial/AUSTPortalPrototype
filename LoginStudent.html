@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="CSS/login_student.css">
+</head>
+
+<body>
+    <div class="box">
+        <span class="borderline"></span>
+        <form method="post" action="student_data.php">
+            <h2>Student Login In</h2>
+
+            <div class="inputbox">
+                <input type="number" required="required" name="RGNo">
+                <span>Registeration No</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="password" required="required" name="password">
+                <span>Password</span>
+                <i></i>
+            </div>
+
+
+            <div class="links">
+                <a href="admin.html">Back</a>
+                <a href="student_SignUp.html">Registeration</a>
+            </div>
+            <input type="submit" value="Login">
+            <!-- <input type="submit" value="Login"> -->
+        </form>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    background: linear-gradient(rgba(16, 25, 65, 0.5),rgba(16, 25, 65, 0.5)), url(images/aust.jpg);;;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 150px auto;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+form input[type = "submit"]{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+form  input[type = "submit"]:active{
+    opacity: 0.8;
+}
+
+.container .warning-icon {
+    font-size: 100px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}

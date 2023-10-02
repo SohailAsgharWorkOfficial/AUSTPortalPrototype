@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login From</title>
+    <link rel="stylesheet" href="CSS/teacher.css">
+</head>
+
+<body>
+    <div class="box">
+        <span class="borderline"></span>
+        <form method="post" action="Teacher.php">
+            <h2>Teacher Registeration Form</h2>
+            <div class="inputbox">
+                <input type="text" required="required" name="teacherID">
+                <span>Teacher ID</span>
+                <i></i>
+            </div>
+
+
+            <div class="inputbox">
+                <input type="text" required="required" name="firstname">
+                <span>First Name</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="text" required="required" name="lastname">
+                <span>Last Name (SurName) </span>
+                <i></i>
+            </div>
+
+
+            <div class="inputbox">
+                <input type="date" required="required" name="T_DOB">
+                <span>Date Of Birth</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <select class="select-box" name="t_gender">
+                    <option value="">Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <i></i>
+            </div>
+
+
+            <div class="inputbox">
+                <input type="email" required="required" name="t_email">
+                <span>Email</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="number" required="required" name="t_mobile">
+                <span>Mobile No</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="text" required="required" name="t_subject">
+                <span>Subject</span>
+                <i></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="text" required="required" name="password">
+                <span>Password</span>
+                <i></i>
+            </div>
+            
+            <div class="inputbox">
+                <!-- <span>Subject</span> -->
+                <textarea name="Discription" id="" cols="30" rows="10" placeholder="Discription"></textarea>
+
+                <i></i>
+            </div>
+            
+           
+
+            <input type="submit" value="Submit ">
+        </form>
+    </div>
+</body>
+
+</html>
